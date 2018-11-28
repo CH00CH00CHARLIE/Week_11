@@ -1,0 +1,19 @@
+{
+  "name": "web-hackerspace-frontend",
+  "version": "1.0.0",
+  "description": "Step 1",
+  "main": "index.js",
+  "scripts": {
+    "now-build": "react-scripts build && mv build dist",
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.2.1",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-scripts": "^1.1.5"
+  }
+}

@@ -1,0 +1,12 @@
+{
+    "version": 2,
+    "name": "web-hackerspace-frontend",
+    "alias": "web-hackerspace-frontend",
+    "builds": [
+        { "src": "package.json", "use": "@now/static-build" }
+    ],
+    "routes": [
+      {"src": "^/static/(.*)", "dest": "/static/$1"},
+      {"src": ".*", "dest": "/index.html"}
+    ]
+}
